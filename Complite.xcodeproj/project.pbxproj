@@ -17,6 +17,14 @@
 		ECBBB38C2A0D1FB5006C34CA /* RemainderListViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBBB38B2A0D1FB5006C34CA /* RemainderListViewController+DataSource.swift */; };
 		ECBBB38E2A0D27F7006C34CA /* ReminderDoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBBB38D2A0D27F7006C34CA /* ReminderDoneButton.swift */; };
 		ECBBB3902A0D287D006C34CA /* ReminderListViewController+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBBB38F2A0D287D006C34CA /* ReminderListViewController+Action.swift */; };
+		ECBBB3922A0D7256006C34CA /* ViewController+Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBBB3912A0D7256006C34CA /* ViewController+Row.swift */; };
+		ECBBB3942A0D76EF006C34CA /* ReminderViewController+Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBBB3932A0D76EF006C34CA /* ReminderViewController+Section.swift */; };
+		ECBBB3962A0D7E64006C34CA /* ReminderViewController+CellConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBBB3952A0D7E64006C34CA /* ReminderViewController+CellConfiguration.swift */; };
+		ECBBB3982A0D7F7D006C34CA /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBBB3972A0D7F7D006C34CA /* UIView+Ext.swift */; };
+		ECBBB39B2A0D7FCE006C34CA /* TextFieldContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBBB39A2A0D7FCE006C34CA /* TextFieldContentView.swift */; };
+		ECBBB39D2A0D7FF6006C34CA /* UIContentConfiguration+Stateless.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBBB39C2A0D7FF6006C34CA /* UIContentConfiguration+Stateless.swift */; };
+		ECBBB39F2A0D8450006C34CA /* TextViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBBB39E2A0D8450006C34CA /* TextViewContentView.swift */; };
+		ECBBB3A12A0D84C4006C34CA /* DatePickerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBBB3A02A0D84C4006C34CA /* DatePickerContentView.swift */; };
 		ECC4C6C22A0C0BC5007D7FCD /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC4C6C12A0C0BC5007D7FCD /* UIColor+Ext.swift */; };
 		ECC4C6C62A0C275F007D7FCD /* ReminderListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC4C6C52A0C275F007D7FCD /* ReminderListStyle.swift */; };
 		ECC4C6C82A0C3DB7007D7FCD /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC4C6C72A0C3DB7007D7FCD /* Date+Ext.swift */; };
@@ -35,6 +43,14 @@
 		ECBBB38B2A0D1FB5006C34CA /* RemainderListViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RemainderListViewController+DataSource.swift"; sourceTree = "<group>"; };
 		ECBBB38D2A0D27F7006C34CA /* ReminderDoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDoneButton.swift; sourceTree = "<group>"; };
 		ECBBB38F2A0D287D006C34CA /* ReminderListViewController+Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+Action.swift"; sourceTree = "<group>"; };
+		ECBBB3912A0D7256006C34CA /* ViewController+Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Row.swift"; sourceTree = "<group>"; };
+		ECBBB3932A0D76EF006C34CA /* ReminderViewController+Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Section.swift"; sourceTree = "<group>"; };
+		ECBBB3952A0D7E64006C34CA /* ReminderViewController+CellConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+CellConfiguration.swift"; sourceTree = "<group>"; };
+		ECBBB3972A0D7F7D006C34CA /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
+		ECBBB39A2A0D7FCE006C34CA /* TextFieldContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldContentView.swift; sourceTree = "<group>"; };
+		ECBBB39C2A0D7FF6006C34CA /* UIContentConfiguration+Stateless.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIContentConfiguration+Stateless.swift"; sourceTree = "<group>"; };
+		ECBBB39E2A0D8450006C34CA /* TextViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewContentView.swift; sourceTree = "<group>"; };
+		ECBBB3A02A0D84C4006C34CA /* DatePickerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerContentView.swift; sourceTree = "<group>"; };
 		ECC4C6C12A0C0BC5007D7FCD /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
 		ECC4C6C52A0C275F007D7FCD /* ReminderListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListStyle.swift; sourceTree = "<group>"; };
 		ECC4C6C72A0C3DB7007D7FCD /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
@@ -73,6 +89,7 @@
 				EC3E52B52A0B780F00CEFCF2 /* App */,
 				ECC4C6C02A0C0B9E007D7FCD /* Extensions */,
 				EC3E52B82A0B7DEE00CEFCF2 /* Model */,
+				ECBBB3992A0D7FB3006C34CA /* ContentViews */,
 				EC3E52B62A0B781600CEFCF2 /* ListViewControllers */,
 				ECBBB3882A0CDE0B006C34CA /* Details */,
 				EC3E52B72A0B782300CEFCF2 /* Resources */,
@@ -123,8 +140,22 @@
 			isa = PBXGroup;
 			children = (
 				ECBBB3892A0CDE1F006C34CA /* DetailViewController.swift */,
+				ECBBB3952A0D7E64006C34CA /* ReminderViewController+CellConfiguration.swift */,
+				ECBBB3932A0D76EF006C34CA /* ReminderViewController+Section.swift */,
+				ECBBB3912A0D7256006C34CA /* ViewController+Row.swift */,
 			);
 			path = Details;
+			sourceTree = "<group>";
+		};
+		ECBBB3992A0D7FB3006C34CA /* ContentViews */ = {
+			isa = PBXGroup;
+			children = (
+				ECBBB39A2A0D7FCE006C34CA /* TextFieldContentView.swift */,
+				ECBBB39C2A0D7FF6006C34CA /* UIContentConfiguration+Stateless.swift */,
+				ECBBB39E2A0D8450006C34CA /* TextViewContentView.swift */,
+				ECBBB3A02A0D84C4006C34CA /* DatePickerContentView.swift */,
+			);
+			path = ContentViews;
 			sourceTree = "<group>";
 		};
 		ECC4C6C02A0C0B9E007D7FCD /* Extensions */ = {
@@ -132,6 +163,7 @@
 			children = (
 				ECC4C6C12A0C0BC5007D7FCD /* UIColor+Ext.swift */,
 				ECC4C6C72A0C3DB7007D7FCD /* Date+Ext.swift */,
+				ECBBB3972A0D7F7D006C34CA /* UIView+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -207,15 +239,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				ECBBB38C2A0D1FB5006C34CA /* RemainderListViewController+DataSource.swift in Sources */,
+				ECBBB3922A0D7256006C34CA /* ViewController+Row.swift in Sources */,
+				ECBBB3982A0D7F7D006C34CA /* UIView+Ext.swift in Sources */,
 				ECBBB38A2A0CDE1F006C34CA /* DetailViewController.swift in Sources */,
+				ECBBB39B2A0D7FCE006C34CA /* TextFieldContentView.swift in Sources */,
 				EC3E52A62A0B76F900CEFCF2 /* RemainderListViewController.swift in Sources */,
+				ECBBB39F2A0D8450006C34CA /* TextViewContentView.swift in Sources */,
+				ECBBB3942A0D76EF006C34CA /* ReminderViewController+Section.swift in Sources */,
 				EC3E52A22A0B76F900CEFCF2 /* AppDelegate.swift in Sources */,
 				ECC4C6C22A0C0BC5007D7FCD /* UIColor+Ext.swift in Sources */,
+				ECBBB3962A0D7E64006C34CA /* ReminderViewController+CellConfiguration.swift in Sources */,
+				ECBBB39D2A0D7FF6006C34CA /* UIContentConfiguration+Stateless.swift in Sources */,
 				ECC4C6C82A0C3DB7007D7FCD /* Date+Ext.swift in Sources */,
 				EC3E52A42A0B76F900CEFCF2 /* SceneDelegate.swift in Sources */,
 				ECBBB38E2A0D27F7006C34CA /* ReminderDoneButton.swift in Sources */,
 				EC3E52BA2A0B7E1100CEFCF2 /* Reminder.swift in Sources */,
 				ECBBB3902A0D287D006C34CA /* ReminderListViewController+Action.swift in Sources */,
+				ECBBB3A12A0D84C4006C34CA /* DatePickerContentView.swift in Sources */,
 				ECC4C6C62A0C275F007D7FCD /* ReminderListStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

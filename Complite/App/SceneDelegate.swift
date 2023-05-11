@@ -18,12 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let layout = UICollectionViewFlowLayout()
         let viewController = ReminderListViewController(collectionViewLayout: layout)
         let navigationController = UINavigationController(rootViewController: viewController)
-        UINavigationBar.appearance().tintColor = .blue
-        UINavigationBar.appearance().backgroundColor = .systemPink
-        let navBarAppearance = UINavigationBarAppearance()
-        navBarAppearance.configureWithOpaqueBackground()
-        UINavigationBar.appearance().scrollEdgeAppearance = navBarAppearance
-        window?.rootViewController = viewController
+        window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
     }
 }
