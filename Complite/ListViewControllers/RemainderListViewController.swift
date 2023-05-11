@@ -37,7 +37,7 @@ final class ReminderListViewController: UICollectionViewController {
             (collectionView: UICollectionView, indexPath: IndexPath, itemIdentifier: Reminder.ID) in
             collectionView.dequeueConfiguredReusableCell(using: cellRegistration, for: indexPath, item: itemIdentifier)
         }
-      
+
         updateSnapshot()
         collectionView.dataSource = dataSource
 
@@ -45,6 +45,20 @@ final class ReminderListViewController: UICollectionViewController {
     }
 
     //MARK: - Setups
+
+    override func collectionView(
+            _ collectionView: UICollectionView, shouldSelectItemAt indexPath: IndexPath
+        ) -> Bool {
+            let id = reminders[indexPath.item].id
+            pushDetailViewForReminder(withId: id)
+            return false
+        }
+
+        func pushDetailViewForReminder(withId id: Reminder.ID) {
+            let reminder = reminder(withID: id)
+            let viewController = ReminderViewController(reminder: reminder)
+            navigationController?.pushViewController(viewController, animated: true)
+        }
 
     private func listLayout() -> UICollectionViewCompositionalLayout {
         var listConfiguration = UICollectionLayoutListConfiguration(appearance: .grouped)
